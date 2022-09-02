@@ -1,0 +1,33 @@
+//TIENE QUE ARRANCAR CON GUION BAJO
+
+.main-index {
+    background-color: aquamarine;
+    text-align: center;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    .card {
+      max-width: 350px;
+      margin: 0 auto;
+      h2 {
+        font-family: sans-serif;
+        &:hover {
+          color: darkolivegreen;
+          background-color: black;
+        }
+      }
+    }
+  }
+  
+  @media (min-width:550px){
+    .main-index{
+        flex-direction: row;
+        .card{
+            h2{
+                &:hover{
+                    background-color: goldenrod;
+                }
+            }
+        }
+    }
+  }

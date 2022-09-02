@@ -1,0 +1,14 @@
+footer {
+    form {
+      input {
+          padding: 15px;
+        &:focus {
+          background-color: lightsalmon;
+  
+          &::placeholder {
+            color: white;
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// COMILLAS SIMPLES Y AL FINAL PUNTO Y COMA
+
+@import './secciones/main-index';
+@import './secciones/header';
+@import './secciones/footer';
